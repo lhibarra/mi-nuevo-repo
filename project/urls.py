@@ -18,6 +18,7 @@ from django.urls import path
 from SocialTravel.views import index
 
 urlpatterns = [
+    path('index', index),
     path('admin/', admin.site.urls),
-    path('saludar', index),
+    
 ]
